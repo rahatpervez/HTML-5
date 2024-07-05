@@ -14,3 +14,13 @@ nav li a{
     text-decoration: none;
     color: black;
 }
+nav li .dropdown{
+    display: none;
+    position: absolute;
+    background-color: lightyellow;
+    padding-left: 15px;
+}
+
+nav li:hover > .dropdown{
+    display: block;
+}
